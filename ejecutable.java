@@ -16,7 +16,7 @@ public void PruebaObj(){
 public void PruebaObj(String nombre, String apellido,int cedula, int edad, String correo){
 this.nombre = nombre;
 this.apellido = apellido;
-this.cedula = cedula
+this.cedula = cedula;
 this.edad = edad;
 this.correo = correo;
 }
@@ -24,7 +24,7 @@ this.correo = correo;
 
 @Override
 public String toString (){
-return "Nombre= " + nombre + " Apellido= " + apellido + "Cedula= " + cedula + " Edad= " + edad + " Correo= " + Correo;
+return "Nombre= " + nombre + " Apellido= " + apellido + "Cedula= " + cedula + " Edad= " + edad + " Correo= " + correo;
 }
 }
 
@@ -38,9 +38,9 @@ PruebaObj persona = new PruebaObj();
 nom = JOptionPane.showInputDialog(null, "Ingrese su nombre");
 ape = JOptionPane.showInputDialog(null, "Ingrese su apellido");
 cedula = Integer.parseInt(JOptionPane.ShowInputDialog(null,"Ingrese su cedula"));
-edad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese su edad"));
+edad = Integer.parseInt(JOptionPane.ShowInputDialog(null, "Ingrese su edad"));
 correo = JOptionPane.ShowInputDialog(null, "Ingrese su Correo");
-persona.PruebaObj(nom, ape, cedula, edad, Correo);
+persona.PruebaObj(nom, ape, cedula, edad, correo);
 System.out.println(persona);
 }
 
