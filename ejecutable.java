@@ -16,7 +16,7 @@ public void PruebaObj(){
 public void PruebaObj(String nombre, String apellido,int cedula, int edad, String correo){
 this.nombre = nombre;
 this.apellido = apellido;
-this.cedula = cedula
+this.cedula = cedula;
 this.edad = edad;
 this.correo = correo;
 }
