@@ -38,7 +38,7 @@ PruebaObj persona = new PruebaObj();
 nom = JOptionPane.showInputDialog(null, "Ingrese su nombre");
 ape = JOptionPane.showInputDialog(null, "Ingrese su apellido");
 cedula = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese su cedula"));
-edad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese su edad"));
+edad = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese su edad Cambios se hize en todo"));
 correo = JOptionPane.showInputDialog(null, "Ingrese su Correo");
 persona.PruebaObj(nom, ape, cedula, edad, correo);
 System.out.println(persona);
